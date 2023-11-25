@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-fill-color: rgb(53, 53, 247);
+}
+
+u{
+    -webkit-text-fill-color: rgb(53, 53, 247);
+}
+
+form{
+    display: flex;
+    flex-direction: column; 
+    width: 30%;  
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form > input{
+    height: 30px;
+}
+
+#specialization{
+    height: 30px;
+}
+
+#filter{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;  
+    margin-bottom: 50px;
+}
+
+ th{
+ padding:20px;
+ background-color: rgb(53, 53, 247);
+ -webkit-text-fill-color: white;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Roboto', sans-serif;
+}
+
+tbody{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.delete-btn{
+    color: red;
+    cursor: pointer;
+}
